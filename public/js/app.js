@@ -22,16 +22,6 @@ chartApp.config(['$routeProvider',function($routeProvider){
 	    	controller:  "DemoController"
 	    }).
 
-	    when('/temp-walkthrough', {
-	    	templateUrl: '/static/partials/temp-walkthrough.html',
-	    	controller:  "TempController"
-	    }).
-
-	    when('/documentation', {
-	    	templateUrl: '/static/partials/docs.html', 
-	    	controller: "DocsController"
-	    }).
-
 	    otherwise({
 	    	redirectTo: '/'
 	    }); 
